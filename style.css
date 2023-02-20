@@ -203,3 +203,67 @@ body{
 .cont{
     display: flex;
 }
+
+@media (max-width: 600px){
+    .contedorinfo{
+        display: none;
+    }
+
+    .imagenabajo{
+        width: 100%;
+    }
+
+    .sello{
+        display: grid;
+        justify-content: center;
+        width: 540px;
+        font-size: 12px;
+    }
+
+    .navegador{
+        margin-left: 250px;
+        background-color: #007648;
+        margin-right: 0;   
+    }
+
+
+    .imagenlg{
+        position: absolute;
+        left: 1% !important;
+    }
+
+    .imagen{
+        width: 560px;
+    }
+
+    .head{
+        background-color: #007648;
+        width: 300px;
+    }
+
+    .positionxd{
+        display: flex;
+        margin-left: 50%;
+    }
+
+    .secciondr{ 
+        margin-left: 20%;
+        margin-top: 800px;
+        position: absolute;
+        width: 500px;
+    }
+
+    .imagenlateral{
+        width: 500px;
+    }
+    .seccioniz{
+        width: 540px;
+    }
+    .textarea{
+        width: 540px;
+    }
+    .asignaturas{
+        width: 504px;
+    }
+    
+}
