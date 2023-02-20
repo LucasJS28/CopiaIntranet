@@ -18,9 +18,8 @@ body{
 }
 
 .imagenlg{
-    margin-top: 1%;
-    margin-left: 16%;
-    width: 550px;
+    margin-left: 10%;
+    width: 800px;
     position: absolute;
 }
 
@@ -33,6 +32,36 @@ body{
     color: white;
     
 }
+.opt{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-bottom: solid 2px gray;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-style: normal;
+    line-height: 21px;
+    color:#008c46;
+
+}
+.textarea{
+    width: 643px;
+    height: 40px;
+    background: #E2E2E2;
+    border-bottom: solid 1px;
+}
+
+.asignaturas{
+    background: #007648;
+    width: 610px;
+    height: 35px;
+    padding: px;
+    padding-top: 17px;
+    padding-left: 40px;
+    border-radius: 4px;
+    color:white;
+}
 
 .foto{
     position: absolute;
@@ -44,11 +73,22 @@ body{
     height: 55px;
 }
 
+.imgasignaturas{
+    width: 30px;
+    position: absolute;
+    left: 0;
+    
+    margin-left: 15%;
+}
 .navegador{
     display: flex;
     justify-content: space-around;
     margin-left: 17%;
     margin-right: 50%;
+}
+
+.nroopcion{
+    position: absolute;
 }
 
 .btnmenu{
@@ -58,6 +98,11 @@ body{
     padding: 11px;
     color:white;
     background-color: #007648;
+}
+
+.btnmenu:hover{
+    background-color: #08945e;
+
 }
 
 .fondonav{
@@ -96,6 +141,20 @@ body{
     margin-top: 6px;
 }
 
+.optlaterales{
+    padding-top: 20px;
+    color: white;
+    padding-left: 50px;
+    background: #ff8000 ;
+    height: 40px;
+    width: auto;
+    margin-top: 10px ;
+}
+
+.optlaterales:hover{
+    background: #fd9d3dd3 ;
+}
+
 .textooxd{
     color:white
 }
@@ -108,23 +167,39 @@ body{
 .fotitolateral{
     position: absolute;
 }
-
+.imagenlateral{
+    width: 650px;
+    margin-top: 20px;
+}
 .seccioniz{
-    background-color: red;
     width: 650px;
     height: 1000px;
     margin-top: 20px;
     margin-left: 15%;
 }
 
+.lapiz{
+    width: 40px;
+}
 .secciondr{
-    background-color: red;
     width: 650px;
     height: 1000px;
     margin-top: 20px;
     margin-left: 1%;
 }
 
+.h1xd{
+    display: flex;
+    font-size: 18px
+}
+
+
+
+.ngigante{
+    position: relative;
+    margin-right: 20px;
+    font-size: 30px;
+}
 .cont{
     display: flex;
 }
