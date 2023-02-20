@@ -263,7 +263,10 @@ body{
         width: 540px;
     }
     .asignaturas{
-        width: 504px;
+        width: 300px;
     }
     
+    .btnmenu{
+        width: 1000px;
+    }
 }
