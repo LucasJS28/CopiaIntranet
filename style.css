@@ -1,0 +1,90 @@
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: #00AE61;
+    border: solid 1px;
+}
+
+body{
+    background: white;
+}
+
+.imagenlg{
+    margin-top: 1%;
+    margin-left: 16%;
+    width: 450px;
+    position: absolute;
+}
+
+.infowea{
+    position: relative;
+    top: 0;
+    margin-left: 65%;
+    font-size: 13px;
+    color: white
+}
+
+.foto{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 17%;
+    margin-top: 15px;
+    width: 80px;
+}
+
+.navegador{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 17.4%;
+    margin-right: 50%;
+}
+
+.btnmenu{
+    padding: 10px;
+    color:white;
+    background-color: #007648;
+}
+
+.fondonav{
+    background-color: #007648;
+}
+
+.tit1{
+    margin-right: 40px;
+}
+
+.positionxd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+#fuegito{
+    margin-top: 13px;
+}
+.sello{
+
+    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 70px;
+    background: gray;
+}
+
+.textoxd{
+    color:white;
+    margin-left: 13%;
+    margin-top: 6px;
+}
+.textoxdd{
+    color:white;
+    font-size: 12px;
+    margin-left: 14%;
+}
+
+.fotitolateral{
+    position: absolute;
+}
