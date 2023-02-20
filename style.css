@@ -12,16 +12,16 @@ body{
 .imagenlg{
     margin-top: 1%;
     margin-left: 16%;
-    width: 450px;
+    width: 550px;
     position: absolute;
 }
 
 .infowea{
     position: relative;
     top: 0;
-    margin-left: 65%;
+    margin-left: 64%;
     font-size: 13px;
-    color: white
+    color: white;
 }
 
 .foto{
@@ -36,12 +36,15 @@ body{
 .navegador{
     display: flex;
     justify-content: space-around;
-    margin-left: 17.4%;
+    margin-left: 17.10%;
     margin-right: 50%;
 }
 
 .btnmenu{
-    padding: 10px;
+    margin-left: 2px;
+    border: none;
+    border-right: solid 1px black;
+    padding: 11px;
     color:white;
     background-color: #007648;
 }
@@ -65,19 +68,24 @@ body{
     margin-top: 13px;
 }
 .sello{
-
-    margin-left: 20%;
+    margin-left: 15%;
     align-items: center;
     justify-content: center;
-    width: 1000px;
+    width: 1500px;
+    padding: 5px;
     height: 70px;
     background: gray;
+    border-radius: 5px;
 }
 
 .textoxd{
     color:white;
     margin-left: 13%;
     margin-top: 6px;
+}
+
+.textooxd{
+    color:white
 }
 .textoxdd{
     color:white;
@@ -87,5 +95,23 @@ body{
 
 .fotitolateral{
     position: absolute;
-    color:red
+}
+
+.seccioniz{
+    background-color: red;
+    width: 650px;
+    height: 1000px;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.secciondr{
+    position: absolute;
+    background-color: red;
+    width: 650px;
+    height: 1000px;
+    margin-top: 18.3%;
+    margin-right: 15%;
+    top: 0;
+    right: 0;
 }
