@@ -220,12 +220,16 @@ body{
         font-size: 12px;
     }
 
+    .fondonav{
+        width: 600px;
+    }
+
     .navegador{
         margin-left: 250px;
         background-color: #007648;
         margin-right: 0;   
     }
-
+    
 
     .imagenlg{
         position: absolute;
@@ -238,13 +242,20 @@ body{
 
     .head{
         background-color: #007648;
-        width: 300px;
+        width: 600px;
+        height: 92px;
+    }
+
+    .btnmenu{
+        display: flex;
+        margin: 0;
     }
 
     .positionxd{
         display: flex;
         margin-left: 50%;
     }
+    
 
     .secciondr{ 
         margin-left: 20%;
