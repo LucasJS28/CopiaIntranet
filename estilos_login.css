@@ -8,3 +8,39 @@
     width: 170px;
     margin: 0px 10px 10px 220px;
 }
+.btnn{
+    margin: 0 0 10px 0;
+    border-radius: none 200px ;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.envio{
+    background-color: #2D562D;
+    border: none;
+    padding: 6px 0px;
+    color:white;
+}
+
+.envio:hover{
+    background-color: #5BB75B;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    margin: 0px 10px 10px 220px;
+    font-size: 12px;
+}
+.infoderecha{
+    position: absolute;
+    top:100px;
+    left: 34%;
+    font-size: 7px;
+    font-family: "Helvetica Neue", Verdana, sans-serif;
+    opacity: 0.8;
+}
+p{
+    margin-top: -5px;
+}
+
